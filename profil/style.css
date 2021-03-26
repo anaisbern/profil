@@ -1,0 +1,107 @@
+/*Feuille de style de la page index.html*/
+
+
+body{
+	background: url(images/lac.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-align: center;
+	font-family: Trebuchet MS, sans-serif;
+}
+
+/*h1 {
+	font-size: 56px;
+	font-family: KeeponTruckin; 
+	color: #245FB2;
+}*/
+
+
+h2 {
+	color: #65D0C0 /*#65A5D0*/;
+	font-size: 24px;
+ 	font-weight: bolder;
+}
+
+
+
+p{
+	font-size: 20px;
+}
+
+table{
+	display: inline-block;
+	margin: 0px auto;
+	
+}
+
+table p {
+	display: inline-block;
+	font-size: 13px;
+	margin: 0px;
+}
+
+.container {
+  width: 666px;
+  margin: 30px auto;
+}
+
+.diapo
+{
+	border-radius: 3px
+}
+
+.moi{
+	border-radius: 50%;
+}
+.card-white {
+	background-color: rgba(255, 255, 255, 0.85);
+	margin: 24px 50px;
+	padding: 24px;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0px 0px 3px 2px #00000047;
+
+}
+
+.discover {
+	background-color: #FF7F50;
+	color : white;
+	padding: 16px 24px;
+	display: block;
+	margin: 24px auto;
+	border-radius: 10px;
+	width: 25%; 
+	text-decoration: none;
+	border: 2px solid #FF7F50;
+}
+
+.discover:hover {
+ 	background-color: white;
+	color: #FF7F50;
+}
+
+li {
+	display: inline;
+	padding: 20px;
+}
+
+li a {
+	text-decoration: none;
+}
+
+li i {
+	font-size: 30px;
+ 	color: #245FB2;
+}
+
+li i:hover {
+	color: #FF7F50;
+}
+
+.list{
+	list-style: none;
+	padding-left: 0px;
+}
+
+
